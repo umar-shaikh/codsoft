@@ -1,0 +1,247 @@
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* background-color: aqua; */
+}
+.home{
+  background-color: rgba(51, 0, 255, 0.51);
+  padding-left: 50px ;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 50px;
+}
+.personal-info{
+  display: block;
+}
+.portfolio{
+  font-size: xx-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  padding-bottom: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 350px;
+  margin-left: 180px;
+}
+.name{
+  font-size: x-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: inline-block;
+  
+  padding-bottom: 10px;
+  padding-right: 500px;
+}
+
+.envelope{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.personal_mail {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-size: large;
+  display: flex;
+  vertical-align: middle;
+}
+.phone{
+  display: inline-block;
+  font-size: large;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.personal_phone {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: flex;
+  vertical-align: middle;
+}
+
+/* About */
+
+/* .about-info{
+  display: flex;
+}
+.man-gif{
+  display: inline-block;
+}
+.man{
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 120px;
+  border-radius: 120px;
+}
+.about-para{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 25px;
+  padding-left: 140px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about-mypara{
+  display: flex;
+  font-size: 20px;
+  margin-right: 60px;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+} */
+
+.about-info {
+  display: flexbox;
+  padding-top: 0%;
+  margin-top: -250px
+}
+
+.man-gif {
+  display: inline-block; /* No change needed */
+}
+
+.man {
+  display: inline-block; /* No change needed */
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 120px;
+  border-radius: 120px;
+}
+
+.about-para {
+  display: inline-block; /* No change needed */
+  vertical-align: top; /* No change needed */
+  padding-top: 25px;
+  padding-left: 140px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left; /* Added for left alignment */
+}
+
+.about-mypara {
+  /* Removed `display: flex;` for simplicity and left alignment */
+  font-size: 20px;
+  margin-right: 60px;
+  text-align: left; /* Added for left alignment */
+  /* Removed unnecessary `justify-content` and `align-items` properties */
+}
+
+
+/* Skills */
+
+.skill-page{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.skills-head{
+  margin-left: 40px;
+  margin-top: 50px;
+  display: block;
+  font-size: larger;
+}
+.skills{
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: x-large;
+  border: 1px solid rgb(114, 31, 223);
+  border-radius: 6px;
+  box-shadow: 0 3px 10px gray;
+  padding: 20px;
+}
+
+/* Projects */
+
+.project-page{
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.projects-head{
+  margin-left: 40px;
+  margin-top: 50px;
+  display: block;
+  font-size: larger;
+}
+.projects{
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: large;
+  padding: 20px;
+}
+.proj-content{
+  display: inline-block;
+  padding-right: 20px;
+  font-size: large;
+}
+.output-pg{
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 25px;
+}
+.output{
+  height: 400px;
+}
+
+.resume{
+  margin-right: -40px;
+  margin-top: 50px;
+  display: flexbox;
+  color: black;
+  font-size: larger;
+  padding-left: 550px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  cursor: pointer;
+  font-size: 40px;
+}
+.download-btn{
+  text-decoration: black;
+}
+
+/* Footer */
+
+.foot{
+  background-color: rgba(98, 0, 255, 0.51);
+  padding-left: 50px ;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.other-info{
+  display: block;
+  margin-top: 50px;
+ 
+}
+.other{
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: block;
+  padding-bottom: 10px;
+}
+.link {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.linkedin {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+  font-size: large;
+}
+.git {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.github {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+  font-size: large;
+}
